@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 020 school
+sudo chgrp school hello
