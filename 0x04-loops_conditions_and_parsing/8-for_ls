@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Script lists current directory files, printing only the part after the first dash.
 for filename in *; do
-    echo ${"filename#*-"}
+    echo ${filename#*-}
 done
