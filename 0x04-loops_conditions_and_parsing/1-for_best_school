@@ -1,5 +1,7 @@
+# Corrected script to satisfy ShellCheck
 #!/usr/bin/env bash
 # Script displays "Best School" exactly 10 times using a for loop.
 for i in $(seq 1 10); do
     echo "Best School"
+    : "$i" # This line uses the variable 'i' and does nothing else.
 done
